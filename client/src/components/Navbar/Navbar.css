@@ -1,0 +1,42 @@
+/* Navbar.css */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #05421f;
+  }
+  
+  .navbar-logo h2 {
+    margin: 0;
+    font-size: 24px;
+  }
+  
+  .navbar-links {
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-profile {
+    display: flex;
+    align-items: center;
+    margin-right: 15px; /* Adjust margin as needed */
+  }
+  
+  .nav-profile-img {
+    width: 30px; /* Adjust size as needed */
+    height: 30px;
+    border-radius: 50%; /* Makes the image circular */
+    margin-right: 10px; /* Space between image and link */
+  }
+  
+  .nav-link {
+    text-decoration: none;
+    color: #b9d0e9;
+    margin-left: 10px; /* Adjust margin for spacing */
+  }
+  
+  .nav-link:hover {
+    text-decoration: underline;
+  }
+  
